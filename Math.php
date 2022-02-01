@@ -2,30 +2,38 @@
 /**
  * This class provides some crucial math operations for our application.
  *
- * @author		ACME Development
- * @version		1.0
+ * @author        ACME Development
+ * @version        1.1
  */
- 
-class Math {
 
-	// some useless constants
-	public const PI = 3.14;
-	public const ZERO = 0;
+class Math
+{
 
-	/**
-	 * Returns the sum of two numbers
-	 *
-	 * @param float $a
-	 * @param float $b
-	 * @return float
-	 */
-	public static function add($num1, $num2){
-		$sum = $num1 + $num2;
-		return $sum;
-	}
+    // some useless constants
+    public const PI = 3.14;
 
-    public static function subtract($num1, $num2){
-        $diff = $num1 - $num2;
-        return $diff;
+    /**
+     * add
+     * Returns the sum of two numbers
+     *
+     * @param float $num1 Number one
+     * @param float $num2 Number two
+     * @return float The sum
+     */
+    public static function add(float $num1, float $num2): float
+    {
+        return $num1 + $num2;
+    }
+
+    /**
+     * subtract
+     * Returns the difference of two numbers
+     * @param float $num1 Number one
+     * @param float $num2 Number two
+     * @return float The difference
+     */
+    public static function subtract(float $num1, float $num2): float
+    {
+        return $num1 - $num2;
     }
 }
