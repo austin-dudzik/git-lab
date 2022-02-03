@@ -48,6 +48,7 @@ class Math
     {
         return $num1 * $num2;
     }
+<<<<<<< HEAD
 
     public static function divide(float $num1, float $num2): float
     {
@@ -59,4 +60,6 @@ class Math
         return 2 * 3.14 * $radius;
     }
     
+=======
+>>>>>>> parent of 8a374bf (added division method)
 }
