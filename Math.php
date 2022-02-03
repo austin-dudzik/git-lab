@@ -36,7 +36,14 @@ class Math
     {
         return $num1 - $num2;
     }
-    
+
+    /**
+     * multiply
+     * Returns the product of two numbers
+     * @param float $num1 Number one
+     * @param float $num2 Number two
+     * @return float The product
+     */
     public static function multiply(float $num1, float $num2): float
     {
         return $num1 * $num2;
