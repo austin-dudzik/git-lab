@@ -48,4 +48,10 @@ class Math
     {
         return $num1 * $num2;
     }
+
+    public static function divide(float $num1, float $num2): float
+    {
+        return $num1 / $num2;
+    }
+    
 }
