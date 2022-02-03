@@ -54,4 +54,9 @@ class Math
         return $num1 / $num2;
     }
     
+    public static function circumference (float $radius): float
+    {
+        return 2 * 3.14 * $radius;
+    }
+    
 }
