@@ -48,18 +48,16 @@ class Math
     {
         return $num1 * $num2;
     }
-<<<<<<< HEAD
 
-    public static function divide(float $num1, float $num2): float
-    {
-        return $num1 / $num2;
-    }
-    
+    /**
+     * circumference
+     * Returns the circumference of a circle
+     * @param float $radius Number one
+     * @return float The circumference
+     */
     public static function circumference (float $radius): float
     {
         return 2 * 3.14 * $radius;
     }
-    
-=======
->>>>>>> parent of 8a374bf (added division method)
+
 }
